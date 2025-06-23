@@ -23,13 +23,25 @@ Most challenges require a Cloud project. In our in-person workshops, you can gra
 ## The Challenges
 
 ### [Level 0: AI Studio Fundamentals](levels/level-0/)
-Understand the core capabilities of the Gemini model family through direct interaction in the Google Cloud console, without writing any code. This section builds the foundational knowledge of what an agent can do before you learn to build one yourself. In their essence, every agent is one (or more) prompts with some orchestration glue code around it. 
+Understand the core capabilities of the Gemini model family through direct interaction in AI Studio, without writing any code. This level builds foundational knowledge of what an agent can do before you learn to build one yourself.
+*   Explore multi-modal capabilities (text, images, audio).
+*   Use speech-to-text and text-to-speech.
+*   Combine Google Search with URL context for research.
+*   Deploy a prompt as a serverless app from Vertex AI Studio.
 
 ### [Level 1: ADK Fundamentals](levels/level-1/)
 Go from zero to a running, tool-using agent, and deploy it to the cloud. Some Python experience is recommended.
+*   Set up your local environment with `adk create` and `adk web`.
+*   Create your first tool for an agent.
+*   Deploy your agent to Cloud Run.
 
 ### [Level 2: Building Smarter Agents](levels/level-2/)
 Move beyond single-function agents to handle conversational memory, connect to external data, and orchestrate complex tasks.
+*   Use session state for conversational memory.
+*   Save files as artifacts.
+*   Connect to external APIs using an OpenAPI spec.
+*   Build workflow agents with `SequentialAgent`.
+*   Create reasoning agents with `PlanReActPlanner`.
 
 ### [Level 3: Production](levels/level-3/)
 Build robust, scalable, and interactive agents using production-grade cloud services and advanced ADK features.
