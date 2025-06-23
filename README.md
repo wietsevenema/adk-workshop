@@ -42,9 +42,3 @@ Move beyond single-function agents to handle conversational memory, connect to e
 *   Connect to external APIs using an OpenAPI spec.
 *   Build workflow agents with `SequentialAgent`.
 *   Create reasoning agents with `PlanReActPlanner`.
-
-### [Level 3: Production](levels/level-3/)
-Build robust, scalable, and interactive agents using production-grade cloud services and advanced ADK features.
-
-### [Level 4: Contribute to ADK](levels/level-4/)
-Contribute back to the open-source ADK project by improving its documentation.
