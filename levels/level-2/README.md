@@ -40,9 +40,9 @@
 
 **Concept:** Some problems are best solved as a sequence of steps. You will use a `SequentialAgent` to create a team of specialized agents that work together to solve a problem.
 
-**Task:** Build a **deep research agent** using a `SequentialAgent`. The first agent in the sequence will use `google_search` and `url_context` tools to gather information on a topic. The second agent will take the collected information and produce a concise summary.
+**Task:** Build a **research agent** using a `SequentialAgent`. The first agent in the sequence will use the `google_search` tool to gather information on a topic. The second agent will take the collected search results and produce a concise summary.
 
-**Outcome:** A workflow agent that can answer a research question by first finding relevant web pages and then summarizing their content.
+**Outcome:** A workflow agent that can answer a research question by first finding relevant web pages and then summarizing the search result snippets.
 
 **Question:** The sequential agent is a *workflow agent*. Does the conversation web UI work well for this type of agent? 
 
@@ -51,7 +51,7 @@
 
 **Concept:** For problems that require dynamic planning, you can instruct the agent to write down a plan first, and then execute it, using  `PlanReActPlanner`.
 
-**Task:** Create a (single, not sequential) deep research agent that uses `google_search` and `url_context` tools. Add the `PlanReActPlanner` to this agent to see how it plans its research steps.
+**Task:** Create a (single, not sequential) research agent that uses the `google_search` tool. Add the `PlanReActPlanner` to this agent to see how it plans its research steps.
 
 **Outcome:** When you ask your agent a research question, you will see it outlining its strategy *before* it calls any tools.
 
