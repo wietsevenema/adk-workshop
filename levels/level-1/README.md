@@ -20,9 +20,9 @@ This level covers the basics of building an AI agent. You will learn how to crea
 
 **Task:** Create a simple Python function that accepts a number of sides, `roll_dice(sides: int)`, and add it to the `tools` list of your `Agent`. Test it in the web UI.
 
-**Outcome:** The agent will call your Python function and reply with its result. You will see the function call and response in the debug logs.
+**Outcome:** The agent will call your Python function and reply with its result. You will see the function call and response in the web UI.
 
-**Question:** The description of a tool is very important for getting good results. Can you explain why? 
+**Question:** The description of a tool is very important for getting good results. Can you explain why? What are common failure modes with tool descriptions? 
 
 ---
 ### Challenge: Your First Cloud Deployment
@@ -31,6 +31,6 @@ This level covers the basics of building an AI agent. You will learn how to crea
 
 **Task:** Use the `adk deploy cloud_run` command to deploy the tool-using agent from the previous challenge.
 
-**Outcome:** You will have a public URL that serves the same ADK web UI and agent you just built.
+**Outcome:** You will have a public URL that serves the same ADK web UI and the agent you just built.
 
 **Question:** Does it make sense to deploy the ADK web UI to a production endpoint? How would you integrate ADK into your application? 
