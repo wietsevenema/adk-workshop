@@ -40,7 +40,7 @@
 
 **Concept:** Some problems are best solved as a sequence of steps. You will use a `SequentialAgent` to create a team of specialized agents that work together to solve a problem.
 
-**Task:** Build a **research agent** using a `SequentialAgent`. The first agent in the sequence will use the `google_search` tool to gather information on a topic. The second agent will take the collected search results and produce a concise summary.
+**Task:** Build a **research agent** using a `SequentialAgent`. The first agent in the sequence will use the `google_search` tool to gather information on a topic. The second agent will take the collected search results and produce a concise summary. Ask it for example to "Research I/O Connect".
 
 **Outcome:** A workflow agent that can answer a research question by first finding relevant web pages and then summarizing the search result snippets.
 
@@ -53,6 +53,6 @@
 
 **Task:** Create a (single, not sequential) research agent that uses the `google_search` tool. Add the `PlanReActPlanner` to this agent to see how it plans its research steps.
 
-**Outcome:** When you ask your agent a research question, you will see it outlining its strategy *before* it calls any tools.
+**Outcome:** When you ask your agent a research question, you will see it outlining its strategy *before* it calls any tools, if the question is sufficiently complex. 
 
 **Question:** When would a `SequentialAgent` be a better choice than a `PlanReActPlanner`, and vice-versa?
