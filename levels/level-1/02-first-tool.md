@@ -2,7 +2,15 @@
 Define a tool and register it with your agent.
 
 ## Concept
-The core power of an agent lies in its ability to use tools (Python functions) to perform actions and interact with the world. You will define a tool using a standard Python function and register it with your agent.
+As powerful as they are, LLMs used in *isolation* have some key limitations. For example, their knowledge is frozen at the time they were trained - and they cannot interact directly with the outside world.
+
+A key development that enables a more dynamic approach is 'tool calling'. Here's how it works:
+
+*   You give an LLM access to a set of external tools (in the ADK, these are Python functions).
+*   When the LLM receives a request, it can decide that it needs to use one of these tools to answer it.
+*   Instead of running the tool itself, the LLM generates a structured output that specifies which tool it wants to use and what information to pass to it.
+*   Your application code receives this output, executes the actual tool, and sends the result back to the LLM.
+*   The LLM then uses the tool's output to generate its final response to you.
 
 ## Task
 Create a simple Python function that accepts a number of sides, `roll_dice(sides: int)`, and add it to the `tools` list of your `Agent`. Test it in the web UI.
