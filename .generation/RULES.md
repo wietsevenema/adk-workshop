@@ -14,27 +14,12 @@ When linking to external resources, documentation,or tools (e.g., AI Studio), cr
 Use "I" to represent yourself, the author, and take ownership of your ideas and actions. Address the reader directly as "you" to create engaging and clear communication. Reserve "we" for situations where you and the reader are genuinely collaborating on a task or are part of the same defined group (like a company or research team). Avoid using "we" as a vague substitute for "I" or to presume a relationship with the reader, as this ensures your writing remains precise and respectful.
 
 ## Challenge Structure
-Each challenge should be formatted as follows to ensure consistency across all levels.
+Each challenge should be formatted as follows to ensure consistency across all levels. Each challenge is in its own file, in the appropriate level directory. 
 
-Start with a level-3 Markdown heading: `### Challenge: [Your Challenge Title]`. Use a Markdown horizontal rule (`---`) to visually separate challenges. Use the four bolded keywords (`**Concept:**`, `**Task:**`, `**Outcome:**`, `**Question:**`) to structure the content. Place each section's content on the same line after its keyword, and separate each keyword-content pair with a blank line.
-
-Here is a template:
-
-```markdown
----
-### Challenge: [Your Challenge Title]
-
-**Concept:** [Explain the core concept and its value.]
-
-**Task:** [Describe the problem to be solved.]
-
-**Outcome:** [Detail the expected, verifiable result.]
-
-**Question:** [Pose a follow-up question for deeper thinking.]
-```
+Start with a level-1 Markdown heading: `# Challenge: [Your Challenge Title]`. Use the four level-2 headings (`Concept`, `Task`, `Outcome`, `Question`) to structure the content. 
 
 ## Concept
-What will the user learn and why is it valuable?
+What will the reader learn and why is it valuable?
 
 Start by clearly stating the single, core concept for the challenge. Explain its importance in a practical context. This sets the stage and motivates the learner by answering the "why" before the "what."
 
@@ -74,3 +59,22 @@ Pose a forward-looking question or a bonus challenge that builds on the core con
 Example:
 **Question:** Now that the items are in a row, how could you modify the layout so they are spaced out evenly with equal space between them?
 
+Here is a template:
+
+```markdown
+---
+# Challenge: [Your Challenge Title]
+[One sentence summary]
+
+## Concept 
+[Explain the core concept and its value.]
+
+## Task 
+[Describe the problem to be solved.]
+
+## Outcome
+[Detail the expected, verifiable result.]
+
+## Wrap up
+[Add a follow-up question for deeper thinking. Here's something to think about...]
+```

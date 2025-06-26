@@ -22,7 +22,7 @@ Most challenges require a Cloud project. In our in-person workshops, you can gra
 
 ## The Challenges
 
-### [Level 0: AI Studio Fundamentals](levels/level-0/)
+### Level 0: AI Studio Fundamentals
 Understand the core capabilities of the Gemini model family through direct interaction in AI Studio, without writing any code. This level builds foundational knowledge of what an agent can do before you learn to build one yourself.
 *   [Multi-Modal Understanding](levels/level-0/01-multi-modal-understanding.md)
 *   [Speech-to-Text](levels/level-0/02-speech-to-text.md)
@@ -30,13 +30,13 @@ Understand the core capabilities of the Gemini model family through direct inter
 *   [Building your own 'Gemini Deep Research'](levels/level-0/04-gemini-deep-research.md)
 *   [From Prompt to Deployed App](levels/level-0/05-prompt-to-app.md)
 
-### [Level 1: ADK Fundamentals](levels/level-1/)
+### Level 1: ADK Fundamentals
 Go from zero to a running, tool-using agent, and deploy it to the cloud. Some Python experience is recommended.
 *   [Local Setup & "Hello, Agent!"](levels/level-1/01-local-setup.md)
 *   [Your First Tool](levels/level-1/02-first-tool.md)
 *   [Your First Cloud Deployment](levels/level-1/03-first-cloud-deployment.md)
 
-### [Level 2: Building Smarter Agents](levels/level-2/)
+### Level 2: Building Smarter Agents
 Move beyond single-function agents to handle conversational memory, connect to external data, and orchestrate complex tasks.
 *   [Remembering Things (State)](levels/level-2/01-remembering-things.md)
 *   [Saving Files (Artifacts)](levels/level-2/02-saving-files.md)
