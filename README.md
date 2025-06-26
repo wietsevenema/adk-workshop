@@ -5,7 +5,7 @@ Welcome\! This workshop is designed to take you from the basics of agent develop
 * **Choose a buddy**: to do the challenges with (you’re faster together and learn more)   
 * **Relax and learn**: Don’t do every challenge. Pick what looks interesting. If you start one and can’t finish it, don’t feel bad — if you like it, you can continue at home. If you finish one, that’s amazing\!   
 * **Pick any challenge**: You can skip levels and there’s no requirement to start at the beginning.   
-* **Don’t be stuck:** If you struggle for more than 20 seconds, raise your hand and we’ll come help you.
+* **Don’t be stuck:** For in-person workshops - if you struggle for more than 20 seconds, raise your hand, and we’ll come help you.
 
 ## Do use your tools for finding answers
 
@@ -43,4 +43,4 @@ Move beyond single-function agents to handle conversational memory, connect to e
 *   [Connecting to the World (External APIs)](levels/level-2/03-connecting-to-the-world.md)
 *   [Workflow Agents](levels/level-2/04-workflow-agents.md)
 *   [Reasoning Planner](levels/level-2/05-reasoning-planner.md)
-*   [Managing Cloud Run with MCP](levels/level-2/06-managing-cloud-run.md)
+*   [Managing Cloud Run with Model Context Protocol (MCP)](levels/level-2/06-managing-cloud-run.md)
