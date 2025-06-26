@@ -65,7 +65,8 @@ Pose a forward-looking question or a bonus challenge that builds on the core con
 Example:
 **Question:** Now that the items are in a row, how could you modify the layout so they are spaced out evenly with equal space between them?
 
-Here is a template:
+## Challenge Template
+Use the markdown template below as a starting point for your new challenge. This ensures that all challenges have a consistent structure, making them easier for learners to follow.
 
 ```markdown
 ---
