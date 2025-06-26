@@ -4,7 +4,7 @@ Welcome\! This workshop is designed to take you from the basics of agent develop
 
 * **Choose a buddy**: to do the challenges with (you’re faster together and learn more)   
 * **Relax and learn**: Don’t do every challenge. Pick what looks interesting. If you start one and can’t finish it, don’t feel bad — if you like it, you can continue at home. If you finish one, that’s amazing\!   
-* **Pick any challenge**: You can skip levels and there’s no requirement to start at the beginning.   
+* **Pick any challenge**: You can skip modules and there’s no requirement to start at the beginning.   
 * **Don’t be stuck:** For in-person workshops - if you struggle for more than 20 seconds, raise your hand, and we’ll come help you.
 
 ## Do use your tools for finding answers
@@ -20,27 +20,27 @@ The challenges are intentionally not step-by-step walkthroughs. Here are some gr
 
 Most challenges require a Cloud project. In our in-person workshops, you can grab the free $5 credit to use the Google Cloud free tier without a credit card. Be aware that there are some (rate) limits. 
 
-## The Challenges
+## The Modules
 
-### Level 0: AI Studio Fundamentals
-Understand the core capabilities of the Gemini model family through direct interaction in AI Studio, without writing any code. This level builds foundational knowledge of what an agent can do before you learn to build one yourself.
-*   [Multi-Modal Understanding](levels/level-0/01-multi-modal-understanding.md)
-*   [Speech-to-Text](levels/level-0/02-speech-to-text.md)
-*   [Audio Generation](levels/level-0/03-audio-generation.md)
-*   [Building your own 'Gemini Deep Research'](levels/level-0/04-gemini-deep-research.md)
-*   [From Prompt to Deployed App](levels/level-0/05-prompt-to-app.md)
+### Module: AI Studio Fundamentals
+Understand the core capabilities of the Gemini model family through direct interaction in AI Studio, without writing any code. This module builds foundational knowledge of what an agent can do before you learn to build one yourself.
+*   [Multi-Modal Understanding](modules/ai-studio-fundamentals/01-multi-modal-understanding.md)
+*   [Speech-to-Text](modules/ai-studio-fundamentals/02-speech-to-text.md)
+*   [Audio Generation](modules/ai-studio-fundamentals/03-audio-generation.md)
+*   [Building your own 'Gemini Deep Research'](modules/ai-studio-fundamentals/04-gemini-deep-research.md)
+*   [From Prompt to Deployed App](modules/ai-studio-fundamentals/05-prompt-to-app.md)
 
-### Level 1: ADK Fundamentals
+### Module: ADK Fundamentals
 Go from zero to a running, tool-using agent, and deploy it to the cloud. Some Python experience is recommended.
-*   [Local Setup & "Hello, Agent!"](levels/level-1/01-local-setup.md)
-*   [Your First Tool](levels/level-1/02-first-tool.md)
-*   [Your First Cloud Deployment](levels/level-1/03-first-cloud-deployment.md)
+*   [Local Setup & "Hello, Agent!"](modules/adk-fundamentals/01-local-setup.md)
+*   [Your First Tool](modules/adk-fundamentals/02-first-tool.md)
+*   [Your First Cloud Deployment](modules/adk-fundamentals/03-first-cloud-deployment.md)
 
-### Level 2: Building Smarter Agents
+### Module: Building Smarter Agents
 Move beyond single-function agents to handle conversational memory, connect to external data, and orchestrate complex tasks.
-*   [Remembering Things (State)](levels/level-2/01-remembering-things.md)
-*   [Saving Files (Artifacts)](levels/level-2/02-saving-files.md)
-*   [Connecting to the World (External APIs)](levels/level-2/03-connecting-to-the-world.md)
-*   [Workflow Agents](levels/level-2/04-workflow-agents.md)
-*   [Reasoning Planner](levels/level-2/05-reasoning-planner.md)
-*   [Managing Cloud Run with Model Context Protocol (MCP)](levels/level-2/06-managing-cloud-run.md)
+*   [Remembering Things (State)](modules/building-smarter-agents/01-remembering-things.md)
+*   [Saving Files (Artifacts)](modules/building-smarter-agents/02-saving-files.md)
+*   [Connecting to the World (External APIs)](modules/building-smarter-agents/03-connecting-to-the-world.md)
+*   [Workflow Agents](modules/building-smarter-agents/04-workflow-agents.md)
+*   [Reasoning Planner](modules/building-smarter-agents/05-reasoning-planner.md)
+*   [Managing Cloud Run with Model Context Protocol (MCP)](modules/building-smarter-agents/06-managing-cloud-run.md)

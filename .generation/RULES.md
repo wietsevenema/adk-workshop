@@ -26,7 +26,7 @@ Use the active voice to make your writing clear and direct. In the active voice,
 *   **Active:** The server **processes** the user's request.
 
 ## Challenge Structure
-Each challenge should be formatted as follows to ensure consistency across all levels. Each challenge is in its own file, in the appropriate level directory. 
+Each challenge should be formatted as follows to ensure consistency across all modules. Each challenge is in its own file, in the appropriate module directory. 
 
 Start with a level-1 Markdown heading: `# Challenge: [Your Challenge Title]`. Use the four level-2 headings (`Concept`, `Task`, `Outcome`, `Question`) to structure the content. 
 
