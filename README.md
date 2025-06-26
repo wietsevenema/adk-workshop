@@ -12,7 +12,7 @@ Welcome\! This workshop is designed to take you from the basics of agent develop
 The challenges are intentionally not step-by-step walkthroughs. Here are some great tools to help you:
 
 * [Google Gemini](https://gemini.google.com/) or [Google Search](https://www.google.com/)  
-* [Gemini in Copilot Chat](https://docs.github.com/en/copilot/using-github-copilot/ai-models/using-gemini-in-github-copilot) when writing code (or [aider](https://aider.chat/) if you’re a CLI person)  
+* [Gemini in Copilot Chat](https://docs.github.com/en/copilot/using-github-copilot/ai-models/using-gemini-in-github-copilot) when writing code (or [aider](https://aider.chat/) or the [Gemini CLI](https://github.com/google-gemini/gemini-cli) if you’re a CLI person)  
 * Search the [ADK docs](https://google.github.io/adk-docs/) and explore the [adk-samples](https://github.com/google/adk-samples) repository
 * If you have Gemini Pro: Chat with the [adk-python repository](https://github.com/google/adk-python) in [Google Gemini](https://gemini.google.com/) (Hit plus and choose Import Code).  
 
