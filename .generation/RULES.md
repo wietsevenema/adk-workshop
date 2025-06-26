@@ -13,6 +13,12 @@ When linking to external resources, documentation,or tools (e.g., AI Studio), cr
 **Precise Pronouns: Using I, You, and We**
 Use "I" to represent yourself, the author, and take ownership of your ideas and actions. Address the reader directly as "you" to create engaging and clear communication. Reserve "we" for situations where you and the reader are genuinely collaborating on a task or are part of the same defined group (like a company or research team). Avoid using "we" as a vague substitute for "I" or to presume a relationship with the reader, as this ensures your writing remains precise and respectful.
 
+**Use the Simple Present Tense**
+When describing a system's behavior, use the simple present tense to state facts directly. Avoid the future tense ("will do"), which is less confident and more passive.
+
+*   **Weak (Future Tense):** The agent **will call** your Python function. You **will see** the response in the UI.
+*   **Strong (Present Tense):** The agent **calls** your Python function, and the UI **displays** the response.
+
 ## Challenge Structure
 Each challenge should be formatted as follows to ensure consistency across all levels. Each challenge is in its own file, in the appropriate level directory. 
 
@@ -75,6 +81,6 @@ Here is a template:
 ## Outcome
 [Detail the expected, verifiable result.]
 
-## Wrap up
+## Question
 [Add a follow-up question for deeper thinking. Here's something to think about...]
 ```
