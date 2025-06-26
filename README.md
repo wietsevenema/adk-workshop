@@ -4,7 +4,6 @@ Welcome\! This workshop is designed to take you from the basics of agent develop
 
 * **Choose a buddy**: to do the challenges with (you’re faster together and learn more)   
 * **Relax and learn**: Don’t do every challenge. Pick what looks interesting. If you start one and can’t finish it, don’t feel bad — if you like it, you can continue at home. If you finish one, that’s amazing\!   
-* **Pick any challenge**: You can skip modules and there’s no requirement to start at the beginning.   
 * **Don’t be stuck:** For in-person workshops - if you struggle for more than 20 seconds, raise your hand, and we’ll come help you.
 
 ## Do use your tools for finding answers
@@ -15,12 +14,14 @@ The challenges are intentionally not step-by-step walkthroughs. Here are some gr
 * [Gemini in Copilot Chat](https://docs.github.com/en/copilot/using-github-copilot/ai-models/using-gemini-in-github-copilot) when writing code (or [aider](https://aider.chat/) or the [Gemini CLI](https://github.com/google-gemini/gemini-cli) if you’re a CLI person)  
 * Search the [ADK docs](https://google.github.io/adk-docs/) and explore the [adk-samples](https://github.com/google/adk-samples) repository
 * If you have Gemini Pro: Chat with the [adk-python repository](https://github.com/google/adk-python) in [Google Gemini](https://gemini.google.com/) (Hit plus and choose Import Code).  
+* I have another repo with a few samples that include solutions to some of the challenges. [Don't peek!](https://github.com/wietsevenema/adk-samples)
 
 ## You’ll likely need a Google Cloud Project
 
 Most challenges require a Cloud project. In our in-person workshops, you can grab the free $5 credit to use the Google Cloud free tier without a credit card. Be aware that there are some (rate) limits. 
 
 ## The Modules
+Treat this like a menu. You can pick any challenge, you can skip modules, and there’s no requirement to start at the beginning.
 
 ### Module: AI Studio Fundamentals
 Understand the core capabilities of the Gemini model family through direct interaction in AI Studio, without writing any code. This module builds foundational knowledge of what an agent can do before you learn to build one yourself.
