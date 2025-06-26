@@ -26,7 +26,7 @@ Most challenges require a Cloud project. In our in-person workshops, you can gra
 Understand the core capabilities of the Gemini model family through direct interaction in AI Studio, without writing any code. This level builds foundational knowledge of what an agent can do before you learn to build one yourself.
 *   [Multi-Modal Understanding](levels/level-0/01-multi-modal-understanding.md)
 *   [Speech-to-Text](levels/level-0/02-speech-to-text.md)
-*   [Text-to-Speech](levels/level-0/03-text-to-speech.md)
+*   [Audio Generation](levels/level-0/03-audio-generation.md)
 *   [Building your own 'Gemini Deep Research'](levels/level-0/04-gemini-deep-research.md)
 *   [From Prompt to Deployed App](levels/level-0/05-prompt-to-app.md)
 
