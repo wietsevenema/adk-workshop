@@ -19,6 +19,12 @@ When describing a system's behavior, use the simple present tense to state facts
 *   **Weak (Future Tense):** The agent **will call** your Python function. You **will see** the response in the UI.
 *   **Strong (Present Tense):** The agent **calls** your Python function, and the UI **displays** the response.
 
+**Prefer Active Voice**
+Use the active voice to make your writing clear and direct. In the active voice, the subject of the sentence performs the action. In the passive voice, the subject receives the action, which can make sentences wordy and ambiguous.
+
+*   **Passive:** The user's request **is processed** by the server.
+*   **Active:** The server **processes** the user's request.
+
 ## Challenge Structure
 Each challenge should be formatted as follows to ensure consistency across all levels. Each challenge is in its own file, in the appropriate level directory. 
 
