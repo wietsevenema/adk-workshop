@@ -6,10 +6,10 @@ As powerful as they are, LLMs used in *isolation* have some key limitations. For
 
 A key development that enables a more dynamic approach is 'tool calling'. Here's how it works:
 
-*   With each prompt, you provide the LLM with a list of available tools and their descriptions.
-*   The LLM uses these descriptions to decide which tool (if any) can help fulfill the prompt.
+*   With each request, you provide the LLM with a list of available tools and their descriptions.
+*   The LLM uses these descriptions to decide which tool (if any) can help fulfill the request.
 *   Instead of running the tool itself, the LLM generates a structured output that specifies which tool it wants to use and what information to pass to it.
-*   Your application code receives this output, executes the actual tool, and sends the result back to the LLM.
+*   Your application code receives this output, executes the actual tool, and then calls the LLM a second time, providing the tool's result as part of the new request.
 *   The LLM then uses the tool's output to generate its final response to you.
 
 ## Task
