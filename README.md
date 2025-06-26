@@ -43,3 +43,4 @@ Move beyond single-function agents to handle conversational memory, connect to e
 *   [Connecting to the World (External APIs)](levels/level-2/03-connecting-to-the-world.md)
 *   [Workflow Agents](levels/level-2/04-workflow-agents.md)
 *   [Reasoning Planner](levels/level-2/05-reasoning-planner.md)
+*   [Managing Cloud Run with a Specialized Toolset](levels/level-2/06-managing-cloud-run.md)
