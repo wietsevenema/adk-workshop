@@ -24,21 +24,22 @@ Most challenges require a Cloud project. In our in-person workshops, you can gra
 
 ### [Level 0: AI Studio Fundamentals](levels/level-0/)
 Understand the core capabilities of the Gemini model family through direct interaction in AI Studio, without writing any code. This level builds foundational knowledge of what an agent can do before you learn to build one yourself.
-*   Explore multi-modal capabilities (text, images, audio).
-*   Use speech-to-text and text-to-speech.
-*   Combine Google Search with URL context for research.
-*   Deploy a prompt as a serverless app from Vertex AI Studio.
+*   [Multi-Modal Understanding](levels/level-0/multi-modal-understanding.md)
+*   [Speech-to-Text](levels/level-0/speech-to-text.md)
+*   [Text-to-Speech](levels/level-0/text-to-speech.md)
+*   [Building your own 'Gemini Deep Research'](levels/level-0/gemini-deep-research.md)
+*   [From Prompt to Deployed App](levels/level-0/prompt-to-app.md)
 
 ### [Level 1: ADK Fundamentals](levels/level-1/)
 Go from zero to a running, tool-using agent, and deploy it to the cloud. Some Python experience is recommended.
-*   Set up your local environment with `adk create` and `adk web`.
-*   Create your first tool for an agent.
-*   Deploy your agent to Cloud Run.
+*   [Local Setup & "Hello, Agent!"](levels/level-1/local-setup.md)
+*   [Your First Tool](levels/level-1/first-tool.md)
+*   [Your First Cloud Deployment](levels/level-1/first-cloud-deployment.md)
 
 ### [Level 2: Building Smarter Agents](levels/level-2/)
 Move beyond single-function agents to handle conversational memory, connect to external data, and orchestrate complex tasks.
-*   Use session state for conversational memory.
-*   Save files as artifacts.
-*   Connect to external APIs using an OpenAPI spec.
-*   Build workflow agents with `SequentialAgent`.
-*   Create reasoning agents with `PlanReActPlanner`.
+*   [Remembering Things (State)](levels/level-2/remembering-things.md)
+*   [Saving Files (Artifacts)](levels/level-2/saving-files.md)
+*   [Connecting to the World (External APIs)](levels/level-2/connecting-to-the-world.md)
+*   [Workflow Agents](levels/level-2/workflow-agents.md)
+*   [Reasoning Planner](levels/level-2/reasoning-planner.md)
